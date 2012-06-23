@@ -1,0 +1,256 @@
+= Rabbit
+
+: subtitle
+   時間内に終われるプレゼンツール
+
+: author
+   須藤功平
+
+: institution
+   株式会社クリアコード
+
+: content-source
+   大統一Debian勉強会
+
+: date
+   2012/06/23
+
+: allotted-time
+   30m
+
+: theme
+   clear-debian
+
+= 今日の予定
+
+  * 私がRabbitを紹介する理由
+  * Rabbitの紹介
+  * Rabbitの使い方の説明
+  * Rabbitを使ってみよう！
+    * みなさんが使ってみます
+
+= 理由
+
+  * ((*私がRabbitを紹介する理由*))
+  * Rabbitの紹介
+  * Rabbitの使い方の説明
+  * Rabbitを使ってみよう！
+    * みなさんが使ってみます
+
+= Rabbitを紹介する理由
+
+  # blockquote
+  Debianユーザーにこそ\n
+  便利なプレゼンツール\n
+  だから
+
+= 私が紹介する理由
+
+  * 私もDebianユーザー((*(('&#x1F606;'))*))
+  * 最も使用歴の長い\n
+    Rabbitユーザー！
+
+= 私
+
+  * 須藤功平
+  * プライベート
+    * フリーソフトウェア((*プログラマー*))
+  * 仕事
+    * フリーソフトウェア((*プログラマー*))\n
+      (('note:兼代表取締役'))
+
+== ノート
+
+  * 野良debパッケージ作成
+    * groonga
+    * milter manager
+  * 野良RPMパッケージ作成
+    * ...
+
+= プログラマー
+
+  * 愛用エディターがある
+  * なんでもバージョン管理
+  * テキストベースを好む
+    * 特にUNIX系のプログラマー
+
+= 私にとってのDebian
+
+  * プログラミング環境
+    * aptで簡単環境構築
+    * sidで(('note:わりと新しい'))ソフトウェアを使用
+  * プレゼン環境
+    * デモ
+    * ライブコーディング
+
+= Debianユーザー
+
+  * プログラマーが多い？
+    * プログラマーに便利な環境だから
+      (('note:（予想）'))
+  * プログラマー的性質？
+    * バージョン管理するよね？
+    * テキスト好きだよね？
+
+= Rabbitを紹介する理由
+
+  # blockquote
+  Debianユーザーにこそ\n
+  便利なプレゼンツール\n
+  だから
+
+= 紹介
+
+  * 私がRabbitを紹介する理由
+  * ((*Rabbitの紹介*))
+  * Rabbitの使い方の説明
+  * Rabbitを使ってみよう！
+    * みなさんが使ってみます
+
+= Rabbit
+
+(('tag:center'))プレゼンツール
+(('tag:margin-bottom'))
+(('tag:margin-bottom'))
+
+  * 入力がテキスト
+  * 悪いプレゼンを防ぐ機能
+
+(('tag:margin-bottom'))
+(('tag:margin-bottom'))
+
+= Rabbit: 入力がテキスト
+
+(('tag:center'))プレゼンツール
+(('tag:margin-bottom'))
+(('tag:margin-bottom'))
+
+  * ((*入力がテキスト*))
+  * 悪いプレゼンを防ぐ機能
+
+(('tag:margin-bottom'))
+(('tag:margin-bottom'))
+
+= 入力がテキスト
+
+(('tag:center'))Debianユーザー向け！
+(('tag:margin-bottom'))
+(('tag:margin-bottom'))
+
+  * 愛用エディターで作れる
+  * バージョン管理できる
+  * grepできる
+
+(('tag:margin-bottom'))
+(('tag:margin-bottom'))
+
+= Rabbit: 悪いプレゼン×
+
+(('tag:center'))プレゼンツール
+(('tag:margin-bottom'))
+(('tag:margin-bottom'))
+
+  * 入力がテキスト
+  * ((*悪いプレゼンを防ぐ機能*))
+
+(('tag:margin-bottom'))
+(('tag:margin-bottom'))
+
+= 悪いプレゼン？
+
+  * 時間オーバー
+  * 文字が小さくて読めない
+  * 話しすぎる
+
+= 時間オーバー
+
+  * ((*時間オーバー*))
+  * (('del:文字が小さくて読めない'))
+  * (('del:話しすぎる'))
+
+= 時間オーバー
+
+  * 聴いている人の集中力がきれる
+    * いい話をしても伝わらない
+    * いい話でも印象が悪くなる\n
+      (('note:（早く終わらないの？）'))
+  * 他の人の予定が狂う
+    * 次の人、運営者、\n
+      別の部屋の話を聞きたい人
+
+= 時間オーバー対策
+
+(('tag:center'))(('tag:x-large'))みんなにわかるタイマー
+
+= うさぎとかめタイマー
+
+  # image
+  # src = rabbit-timer-ui.svg
+  # relative_height = 100
+
+= 紹介: おわり
+
+  * 私がRabbitを紹介する理由
+  * ((*Rabbitの紹介*))
+  * Rabbitの使い方の説明
+  * Rabbitを使ってみよう！
+    * みなさんが使ってみます
+
+= 紹介のまとめ
+
+  * RabbitはDebianユーザー向け\n
+    プレゼンツール
+    * 入力がテキスト
+  * よいプレゼンに導いてくれる
+    * 悪いプレゼンに気付ける機能
+
+= 使い方
+
+  * 私がRabbitを紹介する理由
+  * Rabbitの紹介
+  * ((*Rabbitの使い方の説明*))
+  * Rabbitを使ってみよう！
+    * みなさんが使ってみます
+
+= インストール
+
+  % sudo aptitude build-dep rabbit
+  % sudo gem install rabbit
+
+= 起動
+
+  % apt-get source rabbit
+  % rabbit */sample/theme-bench.rab
+
+= 使ってみよう！
+
+  * 私がRabbitを紹介する理由
+  * Rabbitの紹介
+  * Rabbitの使い方の説明
+  * ((*Rabbitを使ってみよう！*))
+    * みなさんが使ってみます
+
+= お題
+
+(('tag:center'))(('tag:x-large'))
+自分の\nDebianの\n使い方
+
+= ヒント
+
+  (1) 何に使っているか
+      * (('note:プログラミング'))
+  (2) どうしてDebianか
+      * (('note:環境構築が簡単'))
+  (3) ↑の裏付け
+      * (('note:パッケージがたくさんある'))
+  (4) まとめ
+      * (('note:Debianを使ってプログラミングをしよう！'))
+
+= まとめ
+
+  * RabbitはDebianユーザーに\n
+    やさしい
+  * みんなに見えるタイマーは\n
+    たのしくて便利
+  * Debian上でRabbitを使って\n
+    よいプレゼンをしよう！
