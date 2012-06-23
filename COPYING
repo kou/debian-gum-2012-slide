@@ -1,8 +1,9 @@
-rabbit/image/clear-debian-images/debian-logo.svg
-  Debian Open Use Logo License (http://www.debian.org/logos/):
+rabbit/image/clear-debian-images/debian-logo.svg:
+  Debian Open Use Logo License (http://www.debian.org/logos/)
 
 rabbit/image/clear-debian-images/clear-blue-headline-background.svg:
 rabbit/image/clear-debian-images/clear-debian-headline-background.svg:
   Ruby's or GPLv2+:
 
-*.rb, *.rab and other *.svg and *.png: GPLv3+
+*.rb, *.rab and other *.svg and *.png:
+  GPLv3+
