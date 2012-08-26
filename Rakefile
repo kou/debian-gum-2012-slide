@@ -58,8 +58,8 @@ specification = Gem::Specification.new do |spec|
   spec.description = description
   spec.licenses = ["GPLv3+", "Ruby's or GPLv2+", "Debian Open Use Logo License"]
 
-  spec.files = [".rabbit"]
-  spec.files += Dir.glob("{COPYING,GPL,Rakefile,README*}")
+  spec.files = [".rabbit", "config.yaml", "Rakefile"]
+  spec.files += Dir.glob("{COPYING,GPL,README*}")
   spec.files += Dir.glob("rabbit/**/*.*")
   spec.files += Dir.glob("**/*.{svg,png,jpg,jpeg,gif,eps,pdf}")
   spec.files += Dir.glob("*.{rd,rab,hiki,md,pdf}")
