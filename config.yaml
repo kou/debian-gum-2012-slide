@@ -1,8 +1,8 @@
 ---
 id: debian-gum-2012
 tags:
-- Rabbit
-- Debian
+- rabbit
+- debian
 base_name: rabbit
 author: Kouhei Sutou
 presentation_date: 2012/06/23
