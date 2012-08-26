@@ -1,0 +1,12 @@
+---
+id: debian-gum-2012
+tags:
+- Rabbit
+- Debian
+base_name: rabbit
+author: Kouhei Sutou
+presentation_date: 2012/06/23
+email: kou@cozmixng.org
+rubygems_user: kou
+slideshare_user: kou
+speaker_deck_user: 
