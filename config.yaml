@@ -4,9 +4,16 @@ tags:
 - rabbit
 - debian
 base_name: rabbit
-author: Kouhei Sutou
 presentation_date: 2012/06/23
-email: kou@cozmixng.org
-rubygems_user: kou
-slideshare_user: kou
-speaker_deck_user: 
+version: 2012.06.23.2
+licenses:
+- "GPLv3+"
+- "Ruby's or GPLv2+"
+- "Debian Open Use Logo License"
+slideshare_id: rabbit-14073776
+author:
+  name: Kouhei Sutou
+  email: kou@cozmixng.org
+  rubygems_user: kou
+  slideshare_user: kou
+  speaker_deck_user: 
