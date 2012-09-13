@@ -5,7 +5,7 @@ tags:
 - debian
 base_name: rabbit
 presentation_date: 2012/06/23
-version: 2012.06.23.3
+version: 2012.06.23.4
 licenses:
 - "GPLv3+"
 - "Ruby's or GPLv2+"
