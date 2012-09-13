@@ -11,9 +11,10 @@ licenses:
 - "Ruby's or GPLv2+"
 - "Debian Open Use Logo License"
 slideshare_id: rabbit-14073776
+speaker_deck_id: rabbit-rabbit-debian
 author:
   name: Kouhei Sutou
   email: kou@cozmixng.org
   rubygems_user: kou
   slideshare_user: kou
-  speaker_deck_user: 
+  speaker_deck_user: kou
